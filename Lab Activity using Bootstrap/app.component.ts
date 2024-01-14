@@ -10,6 +10,23 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  name = 'Francilyn Estanislao';
+  title = 'angular_data_binding';
+  businessname = "FranciKopi";
+  greetings = "Welcome to FranciKopi!";
+  coffeeOne = "Caramel Macchiato";
+  coffeeTwo = "Americano";
+  coffeeThree = "Latte";
+  // appliedCSS = "green"; //style
+  // notAppliedCSS = false;
+  // myColor = "red";
+
+  // clickCount= 0;
+  // clickMe(){
+  //   this.clickCount++;
+  // }
+
+  // resetClickCount(){
+  //   this.clickCount=0;
+  // }
 
 }
