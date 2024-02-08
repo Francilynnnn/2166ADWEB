@@ -1,0 +1,50 @@
+<div class="body">
+  <div class="text">
+    <p class="date">text format pipes</p>
+    <p class="title-name">My Name is {{"francilyn estanislao" | titlecase}}</p> <br/>
+    <p class="title-name">My nickname is {{"franci" | lowercase}}</p> <br/>
+    <p class="title-name">but you can also call me {{"francilyn estanislao" | uppercase}}</p>
+
+    <p class="date">date pipes</p>
+    <p class="title">Custom Date: {{ currentDate | date : "EEEE MM/dd/yyyy" }}</p> <br/>
+    <p class="title">Long Date: {{ currentDate | date : "longDate" }}</p> <br/>
+    <p class="title">Custom Date 2: {{ currentDate | date : "hh:mm:SS ZZZZ" }}</p> 
+
+    <p class="date">currency pipes</p>
+    <p class="title">Amount is: {{a | currency:'PHP'}}</p> <br/>
+    <p class="title">Amount is: {{a | currency:'PHP ': 'code'}}</p> <br/>
+    <p class="title">Amount is: {{b | currency:'PHP':'symbol':'5.0'}}</p> 
+
+    <p class="date">decimal pipes</p>
+    <p class="title">{{decimal | number: '2.0'}}</p> <br/>
+    <p class="title">{{decimal | number: '7.2-5'}}</p> <br/>
+    <p class="title">{{decimal | number: '3.2-5'}}</p>
+
+    <p class="date">json pipes</p>
+    <pre>{{data | json}}</pre>
+
+
+    <p class="date">percent pipes</p>
+    <p class="title">{{num | percent: '3.1': 'en'}}</p> <br/>
+    <p class="title">{{num | percent: '7.3-5' : 'en'}}</p> <br/>
+    <p class="title">{{num | percent: '4.5-5': 'en'}}</p>
+
+
+    <p class="date">slice pipes</p>
+    <!--Slice 1-->
+    <ol class="title"> 
+      <li *ngFor="let i of collection | slice:0:2">{{i}}</li> 
+    </ol>
+    <!--Slice 2-->
+    <ul class="title-2"> 
+      <li *ngFor="let i of collection | slice:0:3">{{i}}</li> 
+    </ul> 
+    <!--Slice 3--> 
+    <p class="title-3">{{ myNumbers | slice : 2 : 7 }}</p>
+
+      
+
+  </div>
+    
+
+</div>
