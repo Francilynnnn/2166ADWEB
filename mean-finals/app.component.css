@@ -1,0 +1,71 @@
+.body {
+  background-color: #555;
+}
+
+/* Styling for the header */
+p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styling for input fields */
+input {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Styling for the Add book button */
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for each book item */
+h3 {
+  margin-top: 20px;
+}
+
+/* Styling for book titles */
+b:first-child {
+  font-weight: bold;
+}
+
+/* Styling for book descriptions */
+b:last-child {
+  color: #555;
+  margin-left: 10px;
+}
+
+/* Styling for the delete button */
+button {
+  margin-left: 10px;
+  background-color: #ffffff;
+  color: black;
+}
+
+p, .form{
+  text-align: center;
+}
+
+.form{
+  margin: 0px auto;
+  width: 100%;
+  max-width: 708px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/020/933/072/small_2x/abstract-blur-gradient-background-vector.jpg);
+  background-repeat: no-repeat; background-size: cover;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+.title {
+  color: #ffffff;
+}
